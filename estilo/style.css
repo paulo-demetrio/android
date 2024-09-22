@@ -57,11 +57,12 @@ body{background-color:#89CDA5;
     color: #1a5a37;
     }
 
-    nav > a{margin-left: 30px; 
+    nav > a{margin-left: 12px; 
     background-color: #1a5a3775;
     text-decoration: none;
     color: white;
     font-weight: bolder;
+    display: inline;
 
     }
     nav > a:hover{background-color:#a8e2bdd8;
@@ -70,15 +71,14 @@ body{background-color:#89CDA5;
     transition-duration: 1s;
     font-family: Arial, Helvetica, sans-serif;
     }
+    picture>img{width: 100%;}
+
     article{background-color: white;
     box-shadow: 0px 0px 6px rgb(0 0 0 / 40%);
     border-radius: 0px 0px 5px 5px;
     padding: 20px;
     padding-bottom: 10px;
-    padding: auto;
-max-width: 1050px;
-min-width: 600px;
-max-height: 2404px;
+max-height: 100%;
 
 margin: auto;}
 
@@ -160,5 +160,5 @@ margin: auto;}
     .idroid{font-family: var(--font-idroid);
    }
 
-   .final{margin-top: auto;}
+   
    
